@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modificar Texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Modificar Texto</h1>
+
+    <label for="updateId">ID de noticia</label>
+    <input type="text" id="updateId" placeholder="Ej: 100" />
+
+    <label for="updateText">Nuevo texto</label>
+    <textarea id="updateText" placeholder="Escribí el nuevo texto"></textarea>
+
+    <button onclick="updateText()">Actualizar</button>
+    <a href="index.html" class="link">Volver al inicio</a>
+
+    <pre id="result"></pre>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
